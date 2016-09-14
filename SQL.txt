@@ -1,0 +1,59 @@
+Requirement 9
+
+First answer:
+
+SELECT s.Name From 
+ORDERS o INNER JOIN Salesperson s 
+ON o.SalespersonID = s.SalespersonID
+WHERE CustomerID = (SELECT CustomerID FROM Customer WHERE Name = George);
+
+
+
+Second answer:
+
+
+SELECT s.Name From 
+Orders o INNER JOIN Salesperson s 
+ON o.SalespersonID = s.SalespersonID
+WHERE CustomerID NOT IN (SELECT CustomerID FROM Customer WHERE Name = George);
+
+
+Third answer:
+
+
+SELECT s.Name, Count(OrderID) as orders From Orders o INNER JOIN Salesperson s 
+ON o.SalespersonID = s.SalespersonID
+GROUP BY SalesPersonID
+HAVING orders > 2;
+
+
+
+Requirement 10
+
+First answer:
+
+SELECT Name
+FROM Salesperson (s1) WHERE 3 =(
+SELECT COUNT(DISTINCT(s2.Salary))
+FROM Salesperson s2
+WHERE s2.Salary > s1.Salary)
+
+
+
+Second answer:
+
+SELECT CustomerID, Sum(CostOfUnit) as TotalValueOrder
+INTO BigOrders
+GROUP BY CustomerID
+Having TotalValueOrder > 1000
+
+
+
+Third answer:
+
+
+
+SELECT     { fn MONTHNAME(OrderDate) } AS MonthName, YEAR(OrderDate) AS Year, SUM(OrderID) AS totalOrders 
+FROM         Orders
+GROUP BY { fn MONTHNAME(OrderDate) }, YEAR(OrderDate)
+
