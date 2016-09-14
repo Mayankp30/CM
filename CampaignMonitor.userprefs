@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="CampaignMonitor/CampaignMonitor.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CampaignMonitorTests/MainClassTests.cs">
+    <Files>
+      <File FileName="CampaignMonitor/InvalidTriangleException.cs" Line="1" Column="1" />
+      <File FileName="CampaignMonitor/MainClass.cs" Line="1" Column="1" />
+      <File FileName="CampaignMonitorTests/MainClassTests.cs" Line="8" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CampaignMonitor PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

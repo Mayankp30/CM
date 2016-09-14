@@ -1,0 +1,8 @@
+C:\mayank test\CM\CampaignMonitorTests\bin\Debug\CampaignMonitorTests.dll
+C:\mayank test\CM\CampaignMonitorTests\bin\Debug\CampaignMonitorTests.pdb
+C:\mayank test\CM\CampaignMonitorTests\bin\Debug\CampaignMonitor.exe
+C:\mayank test\CM\CampaignMonitorTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\mayank test\CM\CampaignMonitorTests\bin\Debug\CampaignMonitor.pdb
+C:\mayank test\CM\CampaignMonitorTests\obj\Debug\CampaignMonitorTests.csprojResolveAssemblyReference.cache
+C:\mayank test\CM\CampaignMonitorTests\obj\Debug\CampaignMonitorTests.dll
+C:\mayank test\CM\CampaignMonitorTests\obj\Debug\CampaignMonitorTests.pdb

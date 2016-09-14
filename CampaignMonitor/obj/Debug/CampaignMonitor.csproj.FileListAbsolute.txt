@@ -1,0 +1,5 @@
+C:\mayank test\CM\CampaignMonitor\bin\Debug\CampaignMonitor.exe
+C:\mayank test\CM\CampaignMonitor\bin\Debug\CampaignMonitor.pdb
+C:\mayank test\CM\CampaignMonitor\obj\Debug\CampaignMonitor.csprojResolveAssemblyReference.cache
+C:\mayank test\CM\CampaignMonitor\obj\Debug\CampaignMonitor.exe
+C:\mayank test\CM\CampaignMonitor\obj\Debug\CampaignMonitor.pdb
